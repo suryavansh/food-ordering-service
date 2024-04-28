@@ -1,0 +1,29 @@
+server:
+  port: ${PORT:8888}
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bits/food-ordering-system-config-repo
+
+---
+server:
+  port: ${PORT:8888}
+
+spring:
+  profiles: docker
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bits/food-ordering-system-config-repo
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKASERVER_URI:http://eureka-server:8761/eureka}

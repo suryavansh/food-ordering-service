@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "com.bits.orderingservice.infrastructure.configuration.DataSourceConfiguration",
+      "sourceType": "com.bits.orderingservice.infrastructure.configuration.DataSourceConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.bits.orderingservice.infrastructure.configuration.DataSourceConfiguration"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.bits.orderingservice.infrastructure.configuration.DataSourceConfiguration"
+    },
+    {
+      "name": "spring.datasource.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.bits.orderingservice.infrastructure.configuration.DataSourceConfiguration"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.bits.orderingservice.infrastructure.configuration.DataSourceConfiguration"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.bits.orderingservice.infrastructure.configuration.DataSourceConfiguration"
+    }
+  ],
+  "hints": []
+}
